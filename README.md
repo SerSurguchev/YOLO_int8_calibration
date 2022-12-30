@@ -17,6 +17,6 @@ python export.py --weights yolov5n.pt --include engine --half     --imgsz 640
 ```
 5) Run calibration
 ```bash
-python3 tensorrt_quat.py --use_int8 --h 640 --w 640
+python tensorrt_quat.py --use_int8 --h 640 --w 640
 
 ```
