@@ -1,4 +1,4 @@
-# Post-Training Quantization Using Calibration.
+# Post-Training Quantization Using Calibration
 
 1) This project is based on [ultralytics/yolov5](https://github.com/ultralytics/yolov5). Place install it first.
 
