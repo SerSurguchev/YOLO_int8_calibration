@@ -12,7 +12,7 @@ pip install -r requirements.txt  # install
 
 4) Export YOLO trained .pt weighs file from Pytorch to ONNX and Engine file
 ```bash
-python export.py --weights yolov5n.pt --include engine --half (fp16) --imgsz 640
+python export.py --weights yolov5n.pt --include engine --half     --imgsz 640
                                                        --simplify #onnx-simplifier (https://github.com/daquexian/onnx-simplifier)
 ```
 5) Run calibration
