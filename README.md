@@ -1,6 +1,6 @@
 # Post-Training Quantization Using Calibration.
 
-This project is based on ultralytics/yolov5. Place install it first.
+This project is based on [ultralytics/yolov5](https://github.com/ultralytics/yolov5). Place install it first.
 
 ```bash
 git clone https://github.com/ultralytics/yolov5  # clone
