@@ -10,7 +10,7 @@ pip install -r requirements.txt  # install
 2) Place tensorrt_quat.py, calibrator.py, util_trt.py in the home directory ( /yolov5/ ).
 3) Select 1000 - 2000 random images from dataset to run calibration
 
-4) Export YOLO trained .pt weighs file from Pytorch to ONNX and Engine file
+4) Export YOLO trained .pt weighs file from Pytorch to ONNX file.
 ```bash
 python export.py --weights yolov5n.pt --include onnx --half     --imgsz 640
                                                      --simplify # onnx-simplifier (https://github.com/daquexian/onnx-simplifier)
